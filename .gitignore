@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+.venv
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (downloaded at runtime)
+data/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+*.log
+tmp/
+temp/
+
+# Claude
+.claude/
+CLAUDE.md
+
+# Tests (local only)
+tests/
